@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_grus.mk
+    $(LOCAL_DIR)/descendant_grus.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_grus-user \
-    dot_grus-userdebug \
-    dot_grus-eng
+    descendant_grus-user \
+    descendant_grus-userdebug \
+    descendant_grus-eng

@@ -7,14 +7,20 @@
 $(call inherit-product, device/xiaomi/grus/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/descendant/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_grus
+PRODUCT_NAME := descendant_grus
 PRODUCT_DEVICE := grus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9 SE
 PRODUCT_MANUFACTURER := Xiaomi
+
+#Blur
+TARGET_SUPPORTS_BLUR := true
+
+#Face Unlock
+TARGET_FACE_UNLOCK_SUPPORT := true
 
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210305.007/7124944:user/release-keys"
 
