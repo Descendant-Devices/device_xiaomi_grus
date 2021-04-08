@@ -18,7 +18,6 @@ TARGET_OTA_ASSERT_DEVICE := grus
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CLANG_PATH := $(PWD)/vendor/qcom/sdclang
 TARGET_KERNEL_CONFIG := grus_defconfig
 
