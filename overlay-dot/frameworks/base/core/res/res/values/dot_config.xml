@@ -11,4 +11,6 @@
 
     <!-- Default fod pressed color -->
     <integer name="config_fod_pressed_color">2</integer>
+
+    <bool name="config_supportsScreenOffInDisplayFingerprint">true</bool>
 </resources>
