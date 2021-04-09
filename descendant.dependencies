@@ -1,0 +1,38 @@
+[
+  {
+    "repository": "Descendant-Devices/kernel_xiaomi_grus",
+    "target_path": "kernel/xiaomi/sdm710",
+    "branch": "eleven",
+    "remote": "github"
+  },
+  {
+    "repository" : "Descendant-Devices/vendor_xiaomi_grus",
+    "target_path": "vendor/xiaomi",
+    "branch": "eleven",
+    "remote": "github"
+  },
+  {
+    "repository": "Descendant-Devices/device_xiaomi_sdm710-common",
+    "target_path": "device/xiaomi/sdm710-common",
+    "branch": "eleven",
+    "remote": "github"
+  },
+  {
+    "repository": "KudProject/hardware_qcom_display-caf",
+    "target_path": "hardware/qcom-caf/sdm845/display",
+    "branch": "lineage-18.1/sdm845",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-18.1",
+    "remote": "github"
+  },
+  {
+    "repository": "ThankYouMario/proprietary_vendor_qcom_sdclang",
+    "target_path": "vendor/qcom/sdclang",
+    "branch": "ruby",
+    "remote": "github"
+  }
+]
