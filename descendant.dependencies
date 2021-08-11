@@ -32,7 +32,7 @@
   {
     "repository": "ThankYouMario/proprietary_vendor_qcom_sdclang",
     "target_path": "vendor/qcom/sdclang",
-    "branch": "ruby",
+    "branch": "ruby-12",
     "remote": "github"
   }
 ]
