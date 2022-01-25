@@ -9,6 +9,7 @@ $(call inherit-product, device/xiaomi/sdm710-common/sdm710.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+PRODUCT_COMPRESSED_APEX := false
 
 PRODUCT_SHIPPING_API_LEVEL := 28
 
@@ -16,13 +17,18 @@ PRODUCT_SHIPPING_API_LEVEL := 28
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
+# Control groups and task profiles
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
+    $(LOCAL_PATH)/configs/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    DeviceNoCutoutOverlay
 
 # Permissions
 PRODUCT_COPY_FILES += \

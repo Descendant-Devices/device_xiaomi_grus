@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2018-2019,2022 The LineageOS Project
+# Copyright (C) 2018-2019,2022 The aospOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_grus.mk
+    $(LOCAL_DIR)/aosp_grus.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_grus-user \
-    lineage_grus-userdebug \
-    lineage_grus-eng
+    aosp_grus-user \
+    aosp_grus-userdebug \
+    aosp_grus-eng
