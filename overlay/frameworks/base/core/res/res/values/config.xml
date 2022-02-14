@@ -157,9 +157,9 @@
     <dimen name="rounded_corner_radius_bottom">124px</dimen>
 
     <integer-array name="config_udfps_sensor_props" translatable="false" >
-        <item>542</item>  <!-- <item>sensorLocationX</item> -->
-        <item>2007</item> <!-- <item>sensorLocationY</item> -->
-        <item>87</item>   <!-- <item>sensorRadius</item> -->
+        <item>540</item>  <!-- <item>sensorLocationX</item> -->
+        <item>2030</item> <!-- <item>sensorLocationY</item> -->
+        <item>92</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
 
     <!-- How long it takes for the HW to start illuminating after the illumination is requested. -->
