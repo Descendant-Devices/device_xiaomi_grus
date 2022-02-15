@@ -1,0 +1,26 @@
+[
+ {
+   "repository" : "kernel_xiaomi_grus",
+   "target_path": "kernel/xiaomi/grus",
+   "remote"     : "devices",
+   "branch"     : "twelve"
+ },
+ {
+     "repository" : "android_device_xiaomi_sdm710-common",
+     "target_path": "device/xiaomi/sdm710-common",
+     "remote"     : "devices",
+     "branch"     : "twelve-grus"
+ },
+ {
+     "remote": "github",
+     "repository": "NaassomDourado/proprietary_vendor_xiaomi",
+     "target_path": "vendor/xiaomi",
+     "branch"     : "s"
+ },
+ {
+     "remote": "github",
+     "repository": "NaassomDourado/hardware_qcom_display-caf",
+     "target_path": "hardware/qcom-caf/sdm845/display",
+     "branch"     : "s-sdm710"
+ },
+]
