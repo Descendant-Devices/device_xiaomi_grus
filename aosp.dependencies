@@ -13,14 +13,14 @@
  },
  {
      "remote": "github",
-     "repository": "NaassomDourado/proprietary_vendor_xiaomi",
+     "repository": "SDM710-Development/proprietary_vendor_xiaomi",
      "target_path": "vendor/xiaomi",
-     "branch"     : "s"
+     "branch"     : "twelve"
  },
  {
      "remote": "github",
-     "repository": "NaassomDourado/hardware_qcom_display-caf",
+     "repository": "SDM710-Development/hardware_qcom_display-caf",
      "target_path": "hardware/qcom-caf/sdm845/display",
-     "branch"     : "s-sdm710"
+     "branch"     : "twelve"
  },
 ]
