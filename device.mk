@@ -9,6 +9,10 @@ $(call inherit-product, device/xiaomi/sdm710-common/sdm710.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
+# Firmware
+$(call inherit-product, vendor/xiaomi-firmware/grus/firmware.mk)
+
 PRODUCT_COMPRESSED_APEX := false
 
 PRODUCT_SHIPPING_API_LEVEL := 28
