@@ -4,5 +4,8 @@ persist.camera.cfa.thres.rear=200
 persist.vendor.camera.enableAdvanceFeatures=0x3E7
 persist.vendor.camera.multicam=TRUE
 
+# Display
+persist.sys.sf.color_saturation=1.1
+
 # NFC
 ro.nfc.port=I2C
